@@ -20,7 +20,7 @@ const name = () => {
                     <hr />
                     <h5 className="text-center mb-1" >Dúvidas/Sugestões nesse linktree:</h5>
                     <div className="d-flex justify-content-center align-items-center flex-column text-center">
-                        <a href="malito:pedro.rodrigues@3corp.com.br">Pedro Rodrigues - pedro.rodrigues@3corp.com.br</a>
+                        <a href="mailto:pedro.rodrigues@3corp.com.br">Pedro Rodrigues - pedro.rodrigues@3corp.com.br</a>
                     </div>
                 </div>
             </div>
