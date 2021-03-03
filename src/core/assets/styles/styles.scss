@@ -1,0 +1,11 @@
+// Import variables
+@import "./_variables.scss";
+
+// Import Bootstrap
+@import '~bootstrap/scss/bootstrap.scss';
+
+// Global CSS
+@import "./_global.scss";
+
+// Components
+@import "./components/_home.scss";

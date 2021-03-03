@@ -1,26 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './core/assets/styles/styles.scss';
+import Routes from './Routes';
+import { Helmet } from "react-helmet";
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <meta name="description" content="linktree operation 3corp" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="linktree, 3corp" />
+        <meta name="author" content="Pedro Rodrigues" />
+        <title>Linktree 3corp</title>
+      </Helmet>
+      <Routes />
+    </>
+  )
 }
 
 export default App;

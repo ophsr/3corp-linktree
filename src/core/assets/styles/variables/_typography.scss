@@ -1,0 +1,10 @@
+// Override Bootstrap typography variables
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+$font-family-base: 'Comfortaa', cursive;
+
+$headings-font-family: 'Comfortaa', cursive;
+
+$headings-font-weight: 700;
+
+$headings-color: $primary;

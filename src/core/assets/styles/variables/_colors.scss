@@ -1,0 +1,13 @@
+// // Pre-state grayscale colors used in other variables
+$gray-200: #e9ecef !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+
+// Override Bootstrap color system
+
+$blue-primary: #1899d5;
+
+// Override Bootstrap default state colors
+
+$primary: $blue-primary;
+$body-bg:$gray-900;
