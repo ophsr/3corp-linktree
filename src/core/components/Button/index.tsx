@@ -7,4 +7,7 @@ type Props = {
 const ButtonItem = ({ name, link }: Props) => (
     <a className="item col btn btn-outline-primary" href={link} role="button">{name}</a>
 )
-export default ButtonItem;
+const ButtonItemDownload = ({ name, link }: Props) => (
+    <a className="item col btn btn-outline-secondary" href={link} role="button" >{name}</a>
+)
+export { ButtonItem, ButtonItemDownload };
