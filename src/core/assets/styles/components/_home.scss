@@ -16,19 +16,25 @@
 }
 
 .box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: $white;
     padding: 1rem;
-    border: 5px;
     border-radius: 2rem;
     max-width: 99vw;
+}
+
+@media only screen and (min-width: 768px) {
+    .box {
+        background: $white;
+        padding: 1rem;
+        border-radius: 2rem;
+        max-width: 70vw;
+    }
 }
 
 .information {
     text-align: center;
     font-size: 0.8rem;
+    margin: 0;
 }
 
 .item {
